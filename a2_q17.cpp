@@ -6,13 +6,12 @@ int main(){
     cin>>n;
     int sp=n/2;
     for(int i=1;i <=n ;i++){
-        if( i== n/2 +1 ){
+        for  (int j=1 ; j<=sp ; j++){
+          if( i== n/2 +1 && j<=n/2 ){
                 cout<<"*\t";
             }
             else {cout<<"\t";
         } 
-        for  (int j=1 ; j<=sp ; j++){
-          
         }
         for(int j=1;j<=st;j++){
             cout<<"*\t";
